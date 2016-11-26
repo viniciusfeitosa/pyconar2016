@@ -14,7 +14,7 @@ def worker(n):
 
 
 def boss():
-    for i in range(1, 25):
+    for i in range(1, 26):
         tasks.put_nowait(i)
 
 

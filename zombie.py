@@ -3,7 +3,7 @@ import signal
 
 
 def run_forever():
-    gevent.sleep(100)
+    gevent.sleep(1000)
 
 if __name__ == '__main__':
     gevent.signal(signal.SIGQUIT, gevent.kill)
